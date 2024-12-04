@@ -1,5 +1,8 @@
+import Factorial
+
 def main():
-    print("Hello World!")
+    print(Factorial.factorial_itr(6))
+    print(Factorial.factorial_rec(6))
 
 
 if __name__ == "__main__":
